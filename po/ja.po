@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-packagekit 2.28.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-04 13:03-0400\n"
+"POT-Creation-Date: 2010-04-04 13:54-0400\n"
 "PO-Revision-Date: 2009-10-05 21:54+0900\n"
 "Last-Translator:  Yohsuke Ooi <meke@momonga-linux.org>\n"
 "Language-Team: Momonga Project <meke@momonga-linux.org>\n"
@@ -4731,9 +4731,8 @@ msgstr "パッケージマネジャー"
 
 #. TRANSLATORS: This is the message in the libnotify body
 #: ../src/gpk-watch.c:1560
-#, fuzzy
 msgid "Packages have been removed"
-msgstr "'%s'は削除されました"
+msgstr "パッケージは削除されました"
 
 #. TRANSLATORS: This is the message in the libnotify body
 #: ../src/gpk-watch.c:1563
@@ -4774,147 +4773,8 @@ msgstr ""
 
 #: ../src/egg-debug.c:450
 msgid "Debugging Options"
-msgstr ""
+msgstr "デバッグ情報"
 
 #: ../src/egg-debug.c:450
-#, fuzzy
 msgid "Show debugging options"
-msgstr "追加のデバッグ情報の表示"
-
-#~ msgid "The group could not be queried"
-#~ msgstr "グループに対する処理要求できません"
-
-#~ msgid "Install only security updates"
-#~ msgstr "セキュリティーの更新のみインストール"
-
-#~ msgid "Show all software updates"
-#~ msgstr "すべてのソフトウェア更新を表示"
-
-#~ msgid "and %d other security update"
-#~ msgid_plural "and %d other security updates"
-#~ msgstr[0] "そして、%d個のセキュリティーの更新"
-#~ msgstr[1] "そして、%d個のセキュリティーの更新"
-
-#~ msgid "EULA required"
-#~ msgstr "EULAは必須"
-
-#~ msgid "Signature required"
-#~ msgstr "シグネチャは必須"
-
-#~ msgid "Install untrusted"
-#~ msgstr "信頼できないインストール"
-
-#~ msgid "Failed to reset client to perform action"
-#~ msgstr "操作しているクライアントのリセットに失敗しました"
-
-#~ msgid "Finding other packages we require"
-#~ msgstr "必要なその他のパッケージの検索"
-
-#~ msgid "Could not work out what packages would be also installed"
-#~ msgstr "インストールすべきパッケージの作業を完了できません"
-
-#~ msgid "%i additional package also has to be installed"
-#~ msgid_plural "%i additional packages also have to be installed"
-#~ msgstr[0] "%i個の追加のパッケージもインストーする必要があります"
-#~ msgstr[1] "%i個の追加のパッケージもインストーする必要があります"
-
-#~ msgid "Do you want to copy this file?"
-#~ msgid_plural "Do you want to copy these files?"
-#~ msgstr[0] "このファイルをコピーしますか？"
-#~ msgstr[1] "このファイルをコピーしますか？"
-
-#~ msgid ""
-#~ "This package file has to be copied from a private directory so it can be "
-#~ "installed:"
-#~ msgid_plural ""
-#~ "Several package files have to be copied from a private directory so they "
-#~ "can be installed:"
-#~ msgstr[0] ""
-#~ "パッケージファイルは、個人ディレクトリからインストールからインストールでき"
-#~ "るようにするため、コピーする必要があります:"
-#~ msgstr[1] ""
-#~ "パッケージファイルは、個人ディレクトリからインストールからインストールでき"
-#~ "るようにするため、コピーする必要があります:"
-
-#~ msgid "Copy file"
-#~ msgid_plural "Copy files"
-#~ msgstr[0] "ファイルのコピー"
-#~ msgstr[1] "ファイルのコピー"
-
-#~ msgid "The file could not be copied"
-#~ msgid_plural "The files could not be copied"
-#~ msgstr[0] "ファイルをコピーできませんでした"
-#~ msgstr[1] "ファイルをコピーできませんでした"
-
-#~ msgid "File was not found!"
-#~ msgid_plural "Files were not found!"
-#~ msgstr[0] "ファイルが見つかりませんでした"
-#~ msgstr[1] "ファイルが見つかりませんでした"
-
-#~ msgid "File was not recognised!"
-#~ msgid_plural "Files were not recognised!"
-#~ msgstr[0] "ファイルが認識できません！"
-#~ msgstr[1] "ファイルが認識できません！"
-
-#~ msgid "The following file is not recognised by the packaging system:"
-#~ msgid_plural ""
-#~ "The following files are not recognised by the packaging system:"
-#~ msgstr[0] "以下のファイルがパッケージシステムで認識できません"
-#~ msgstr[1] "以下のファイルがパッケージシステムで認識できません"
-
-#~ msgid "Failed to search for file"
-#~ msgstr "ファイルの検索に失敗しました"
-
-#~ msgid "Finding package name: %s"
-#~ msgstr "パッケージの検索: %s"
-
-#~ msgid "Finding file name: %s"
-#~ msgstr "ファイル名の検索中: %s"
-
-#~ msgid "Finding a package to provide: %s"
-#~ msgstr "提供されているパッケージの検索: %s"
-
-#~ msgid "%i additional package also has to be removed"
-#~ msgid_plural "%i additional packages also have to be removed"
-#~ msgstr[0] "%i個の追加パッケージも削除します"
-#~ msgstr[1] "%i個の追加パッケージも削除します"
-
-#~ msgid "To remove %s other packages that depend on it must also be removed."
-#~ msgid_plural ""
-#~ "To remove %s other packages that depend on them must also be removed."
-#~ msgstr[0] "%sを削除するため、依存するパッケージも削除する必要があります。"
-#~ msgstr[1] "%sを削除するため、依存するパッケージも削除する必要があります。"
-
-#~ msgid "%i additional update also has to be installed"
-#~ msgid_plural "%i additional update also have to be installed"
-#~ msgstr[0] "%i個の追加の更新をインストールする必要があります"
-#~ msgstr[1] "%i個の追加の更新をインストールする必要があります"
-
-#~ msgid "Cannot cancel running task"
-#~ msgstr "タスク実行をキャンセルできません"
-
-#~ msgid "There are tasks that cannot be cancelled."
-#~ msgstr "キャンセルできるタスクはありません"
-
-#~ msgid "Detected wireless broadband connection"
-#~ msgstr "ワイヤレスブロードバンド接続を検出しました"
-
-#~ msgid "Update anyway"
-#~ msgstr "すべて更新"
-
-#~ msgid "No updates selected"
-#~ msgstr "更新対象が選択されていません"
-
-#~ msgid "No updates are selected"
-#~ msgstr "アップデート対象が選択されていません"
-
-#~ msgid "All selected updates installed..."
-#~ msgstr "選択されたすべての更新がインストールされました..."
-
-#~ msgid "All selected updates installed"
-#~ msgstr "選択されたすべての更新がインストールされました"
-
-#~ msgid "(%i more task)"
-#~ msgid_plural "(%i more tasks)"
-#~ msgstr[0] "(%i 個の追加タスクがあります)"
-#~ msgstr[1] "(%i 個の追加タスクがあります)"
+msgstr "デバッグ情報の表示"
