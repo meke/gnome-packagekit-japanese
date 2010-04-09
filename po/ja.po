@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-packagekit 2.28.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-09 03:00-0400\n"
+"POT-Creation-Date: 2010-04-09 03:05-0400\n"
 "PO-Revision-Date: 2009-10-05 21:54+0900\n"
 "Last-Translator:  Yohsuke Ooi <meke@momonga-linux.org>\n"
 "Language-Team: Momonga Project <meke@momonga-linux.org>\n"
@@ -431,7 +431,6 @@ msgid "Only N_ative Packages"
 msgstr "ディストリ固有のパッケージのみ(_a)"
 
 #: ../data/gpk-application.ui.h:8
-#, fuzzy
 msgid "Only _Available"
 msgstr "利用可能なもののみ(_a)"
 
@@ -1156,7 +1155,6 @@ msgstr "パッケージ名を入力し、検索開始をクリックしてくだ
 
 #. TRANSLATORS: daemon is broken
 #: ../src/gpk-application.c:3534
-#, fuzzy
 msgid "Exiting as properties could not be retrieved"
 msgstr "バックエンドの詳細が取得不能なので終了します"
 
@@ -1282,7 +1280,6 @@ msgstr[1] "セキュリティアップデートが見つかりました"
 
 #. TRANSLATORS: message when there are security updates
 #: ../src/gpk-check-update.c:646
-#, fuzzy
 msgid "An important update is available for your computer:"
 msgid_plural "Important updates are available for your computer:"
 msgstr[0] "以下の重要な更新がこのコンピュータで利用可能です:"
@@ -1290,7 +1287,6 @@ msgstr[1] "以下の重要な更新がこのコンピュータで利用可能で
 
 #. TRANSLATORS: button: open the update viewer to install updates
 #: ../src/gpk-check-update.c:666
-#, fuzzy
 msgid "Install updates"
 msgstr "更新をインストール"
 
@@ -1899,9 +1895,8 @@ msgstr "以下のパッケージはカタログからインストールされる
 
 #. TRANSLATORS: error: failed to remove, detailed error follows
 #: ../src/gpk-dbus-task.c:2426
-#, fuzzy
 msgid "Failed to remove package"
-msgstr "パッケージの検索に失敗しました"
+msgstr "パッケージの削除に失敗しました"
 
 #: ../src/gpk-dbus-task.c:2503
 #, fuzzy
@@ -1932,11 +1927,10 @@ msgstr[1] "以下のファイルが必要です:"
 
 #. TRANSLATORS: confirm with the user
 #: ../src/gpk-dbus-task.c:2790
-#, fuzzy
 msgid "Do you want to remove this file now?"
 msgid_plural "Do you want to remove these files now?"
-msgstr[0] "このファイルをすぐに検索しますか？"
-msgstr[1] "このファイルをすぐに検索しますか？"
+msgstr[0] "このファイルをすぐに削除しますか？"
+msgstr[1] "このファイルをすぐに削除しますか？"
 
 #. TRANSLATORS: string is a program name, e.g. "Movie Player"
 #: ../src/gpk-dbus-task.c:2795
@@ -1951,8 +1945,8 @@ msgstr[1] "%s はファイルをインストールします"
 #, fuzzy
 msgid "A program wants to remove a file"
 msgid_plural "A program wants to remove files"
-msgstr[0] "プログラムがインストールするファイル"
-msgstr[1] "プログラムがインストールするファイル"
+msgstr[0] "プログラムが削除するファイル"
+msgstr[1] "プログラムが削除するファイル"
 
 #. TRANSLATORS: button: confirm to search for packages
 #: ../src/gpk-dbus-task.c:2802
@@ -2262,14 +2256,12 @@ msgid "Update failed due to running process"
 msgstr ""
 
 #: ../src/gpk-enum.c:522
-#, fuzzy
 msgid "The package database was changed"
-msgstr "パッケージのインストールに失敗しました"
+msgstr "パッケージデータベースが更新されました"
 
 #: ../src/gpk-enum.c:539
-#, fuzzy
 msgid "Failed with unknown error code."
-msgstr "提供物の検索に失敗しました"
+msgstr "不明なエラーコードで失敗しました"
 
 #: ../src/gpk-enum.c:542
 msgid ""
